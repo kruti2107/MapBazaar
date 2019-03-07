@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_homebutton"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/ic_action_name"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_shop_by_store"
+            android:icon="@drawable/ic_sbs"
+            android:title="Shop By Store" />
+        <item
+            android:id="@+id/nav_onsale"
+            android:icon="@drawable/ic_on_sale"
+            android:title="Shop By Store" />
+
+        <item
+            android:id="@+id/nav_shoppinglist"
+            android:icon="@drawable/ic_list"
+            android:title="Shopping List" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_select_location"
+            android:icon="@drawable/ic_select_location"
+            android:title="Select Location" />
+        <item
+            android:id="@+id/nav_customer_support"
+            android:icon="@drawable/ic_customer_support"
+            android:title="Customer support" />
+    </group>
+
+            <item
+                android:icon="@mipmap/ic_contact_mail_black_36dp"
+                android:title="About Us" />
+
+</menu>
