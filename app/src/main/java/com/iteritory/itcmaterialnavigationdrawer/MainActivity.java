@@ -98,13 +98,15 @@ public class MainActivity extends AppCompatActivity
                 fragment = new StoreFragment();
                 break;
             case R.id.nav_shop_by_store:
-                fragment = new ChatFragment();
+                fragment = new Login_Fragment();
                 break;
             case R.id.nav_myaccount:
                 fragment = new SettingsFragment();
                 break;
             case R.id.nav_login:
                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                break;
+
 
             default:
                 break;
