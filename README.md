@@ -1,3 +1,2 @@
-# ItcMaterialNavigationDrawer
-This is a simple example of navigation Drawer with Android Material Design.
-For the detailed tutorial, visit https://iteritory.com/ or directly hit https://iteritory.com/android-sliding-navigation-drawer-with-material-design/
+# MapBaazar
+-It's a Andriod application that provide a local shops to register themselves on google map.
